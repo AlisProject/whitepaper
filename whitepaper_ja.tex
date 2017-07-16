@@ -1,5 +1,6 @@
 \documentclass{jsarticle}
 \usepackage[dvipdfmx]{graphicx,color}
+\usepackage{amsmath}
 \begin{document}
 
 \title{ALIS whitepaper}
@@ -163,12 +164,12 @@ ALISトークンを所有し、プラットフォームを発展させようと�
 この条件だけであればトークンをALISに預けたあと、トークンが増え次第すぐに引き出してexchangeで売るというインセンティブを防ぐことが出来ない。
 そこで我々ははNEMのPoIから着想し、トークンを移してから実効性をもつまでには時間が必要であるというロジックを導入する。
 具体的な式は以下である。
-\begin{equation}
-f(t) = log_{94}(t-1) , 1 ≦ t < 94
-\end{equation}
-\begin{equation}
-f(t) = 1 , t ≧ 94
-\end{equation}
+\begin{align}
+f(t) = log_{94}(t-1) (1 ≦ t < 94)
+\end{align}
+\begin{align}
+f(t) = 1 (t ≧ 94)
+\end{align}
 ここでtはトークンをALIS上のwalletにうつしてから経過した日数である。上記数式を採用した理由は3点ある。1点目は、新規ユーザが
 早くALISの魅力を体感することができるよう、tが小さいときには上昇幅が大きいということ。2点目は、長くユーザが使うことで100\%ALISの
 トークンの影響を受けることができるということ。3点目は、一度引き出してしまうとまたゼロから時間を経過させる必要があるため、
@@ -212,19 +213,20 @@ exchangeのwalletに入っている割合をx1,ALISwalletに入っている割�
 次に、投稿者・投票者一人ひとりに具体的にどのようにトークンが配布されるかを述べる。
 まずベースとなるのはコンテンツに設定されるベースポイント$A_{i}$である。このベースポイントは投稿者・投票者それぞれの行動によって
 算出される。ALISトークンを多く保有している投稿者が投稿したコンテンツにはより多くのベースポイント$A_{i}$が設定される。具体的には、
-\begin{equation}
-A_{i} = \frac{Valid ALIS tokens owend by the user}{ALL valid ALIS tokens} (A_{i} = 0.01 if A_{i} < 0.01)
-\end{equation} 
+\begin{align}
+A_{i} = \frac{\rm Valid\:ALIS\:tokens\:owend\:by\:the\:user}{\rm ALL\:valid\:ALIS\:tokens}\:(A_{i} = 0.01\:{\rm if}\:A_{i} < 0.01)
+\end{align}
 が設定されることになる（イメージできない方もご安心いただきたい。後ほど簡単な図を使って説明を行う）。 ALISを多く保有している人
 ほどプラットフォームを健全に保つインセンティブが働くことと、連続投稿したコンテンツに関しては不正の可能性が高いということを
 鑑みてこのような設定になっている。投稿者についても同様に投稿者ポイント$B_{i}$を持っており、
-\begin{equation}
-B_{i} = \frac{Valid ALIS tokens owend by the user}{ALL valid ALIS tokens} (B_{i} = 0.001 if B_{i} < 0.001) * α (α = 0 if last post < 5minutes else α = 1)
-\end{equation}
-をパラメータとして持っている。これらのユーザがいいね（$B^{good}_{i}$）もしくは低評価（$B^{bad}_{i}$）をすることになるが、
+\begin{align}
+B_{i} = \frac{\rm Valid\:ALIS\:tokens\:owend\:by\:the\:user}{\rm ALL\:valid\:ALIS\:tokens} * \alpha \:(B_{i} = 0.001 {\rm\:if\:} B_{i} < 0.001)
+\end{align}
+をパラメータとして持っている。ここでαは評価を行った当該ユーザが5分以内に別の記事を評価していた場合0、そうでない場合1になる
+パラメータである。これらのユーザがいいね$B^{good}_{i}$もしくは低評価$B^{bad}_{i}$をすることになるが、
 \begin{equation}
 B^{good} = Σ (B_{i} * θ (θ = 0 if user vote user's own ariticle) else δ = 1) * δ（δ = 0 if all votes < 10, else δ = 1) 
-★早く投稿するほど高いポイントがもらえることを書く。cosθでいいか。
+★早く投稿するほど高いポイントがもらえることを書く。y=-ax^{2}+1でいいか。
 \end{equation}
 \begin{equation}
 B^{bad} = Σ (B_{i}) * δ（δ = 0 if all votes < 10, else δ = 1) 
@@ -289,7 +291,72 @@ MS社から認定されており、BizSpark+としての審査も受けること
 成し遂げられると自負しているし、我々がやるべきだという使命感を抱いている。以下に我々のチームの主要メンバーのプロフィールを掲載しておく。
 もちろんこの他にも大勢の協力者がいるが、我々は名前だけを借りるような無意味なプロフィールメンバーを増やすことは誠実ではないと考え、コアメンバーの
 プロフィールのみを掲載している。
-★チームメンバーについても紹介をしたい。メンバーのプロフィール＋ストレングスファインダーあたりを乗せる。プロフィールはLPとは違う感じで、もっと人となりが伝わるような形で。
+\begin{quote}
+Masahiro Yasu
+
+Founder
+
+Yasu is a graduate from Kyoto University, the university with the highest
+number of Nobel Prize winner recipients in Japan. He majored in nuclear fusion and 
+analyzed alfven eigenmode raised in helical plasma by Fortran. After graduation, 
+he joined Recruit Co., Ltd. (The 2nd largest HR company in the world, also 
+the parent company of Indeed). Yasu is experienced in business development, 
+including business strategy and system development of several products, 
+such as business SNS and referral tool. He also actively worked on machine 
+learning and natural language analysis, and received the GROWTH FORUM 
+Award which is the highest prize in Recruit. Currently he also serves as a 
+project leader of a joint project with Microsoft Japan.
+\end{quote}
+\begin{quote}
+Takashi Mizusawa
+
+Co-Founder / Marketing
+
+Takashi started a venture company as a university student. After graduation 
+he started his career at the worldwide famous Benesse Corporation. After winning 
+the company's annual MVP in his first year, he worked mainly in business 
+development such as student SNS and education services on tablets. After working 
+at Benesse for 6 years, he joined Recruit Career Co., Ltd., known for connecting 
+"learning" and "working". There he gained experience in business development of 
+MOOC and referral tool. He is interested in using social networks in HR. 
+He envisions a world where individuals can earn success through their own unique abilities.
+\end{quote}
+\begin{quote}
+Sota Ishii
+
+Co-Founder / Engineering
+
+Sota has over 13 years of experience as a system engineer. He took on the 
+role as a development leader of a famous Japanese HR company. During his 
+time there, he created an award-winning HR system that contributed to the company's 
+service growth. He is interested in new technologies and business, taking on roles in 
+varies positions. He strongly believes that blockchain technology will be a widespread 
+standard within in a few years. Due to the recent rise of crypto currency, he has 
+committed himself to the ALIS project.
+\end{quote}
+\begin{quote}
+Bato Erichin
+
+Communication / Engineering
+
+Erichin is a graduate from Tsinghua University, majored in Thermal Engineering. 
+He received master's degree in the Chinese Academy of Science, focus on 
+supercomputing base large-scale parallel CFD. After graduation in 2014, he 
+joined Recruit Co., Ltd., and now is a full stack engineer. He has skills such as 
+iOS, Android, frontend, backend and UI/UX design. He also has a role as a bridge 
+of communication for our Chinese user on Weibo, Wechat, and other famous SNS in China.
+\end{quote}
+\begin{quote}
+Tatsuhiko Kamei
+
+Regal department
+
+Kamei graduated University of Tokyo, the most authentic university in Japan, 
+After joining Recruit Career Co., Ltd. as a legal staff, he handles fields such as 
+IT and web services, marketing, human resource and etc. He has special advantage 
+in legal affairs of new business development. He also enjoys athletics in leisure time, 
+especially triathlon and marathon.
+\end{quote}
 \section{ファイナンシャル}
 トークンが将来どれぐらいの価値になるのかを楽観・中庸・悲観の3パターンで記載する。算出にあたってSTEEMの現在の評価を大いに
 参考にさせていただいた。基本的なロジックとしては、STEEMにおける1ユーザの価値を参考に、我々のユーザ数の伸びにその価値をかけると
