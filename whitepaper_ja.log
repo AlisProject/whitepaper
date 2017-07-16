@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.28)  17 JUL 2017 03:44
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.28)  17 JUL 2017 04:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -189,30 +189,38 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
- [1
+File: img/aliscover.png Graphic file (type bmp)
+
+<img/aliscover.png> [1
 
 ] [2]
-File: img/systemthinking-with-AARRR.png Graphic file (type bmp)
+File: img/features.png Graphic file (type bmp)
+ <img/features.png>
+Overfull \hbox (6.62627pt too wide) in paragraph at lines 70--71
+[][] 
+ []
 
-<img/systemthinking-with-AARRR.png>
-Overfull \hbox (44.36682pt too wide) in paragraph at lines 79--128
+[3]
+File: img/systemthinking-with-AARRR.png Graphic file (type bmp)
+ <img/systemthinking-with-AARRR.png>
+Overfull \hbox (44.36682pt too wide) in paragraph at lines 127--152
 []
  []
 
-[3] [4]
+[4] [5]
 File: img/systemthinking-with-AARRR.png Graphic file (type bmp)
  <img/systemthinking-with-AARRR.png>
-Overfull \hbox (44.36682pt too wide) in paragraph at lines 138--153
+Overfull \hbox (44.36682pt too wide) in paragraph at lines 166--181
 [] 
  []
 
-[5] [6]
+[6] [7]
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 170.
+(Font)              scaled to size 6.72699pt on input line 198.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 170.
- [7]
-Overfull \hbox (342.82503pt too wide) detected at line 233
+(Font)              scaled to size 4.805pt on input line 198.
+ [8]
+Overfull \hbox (342.82503pt too wide) detected at line 271
 \OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = \JY1/mc/m/n/10 Σ \OT1/cmr/m/n/10 (\OML/
 cmm/m/it/10 B[] \OMS/cmsy/m/n/10 ^^C \JY1/mc/m/n/10 θ \OT1/cmr/m/n/10 (\JY1/mc
 /m/n/10 θ \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 ifuservoteuser[]sownariticle\OT1
@@ -224,28 +232,28 @@ lvotes < \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 ; else \JY1/mc/m/n/10 δ \OT1/cmr/m
 \OT1/cmr/m/n/10 + 1 \JY1/mc/m/n/10 でいいか。
  []
 
-[8] [9] [10] [11]
+[9] [10] [11] [12]
 File: img/financialtable.png Graphic file (type bmp)
  <img/financialtable.png>
-Overfull \hbox (5.22017pt too wide) in paragraph at lines 364--372
+Overfull \hbox (5.22017pt too wide) in paragraph at lines 424--429
 []
  []
 
-[12]
+[13]
 File: img/tokenallocation.png Graphic file (type bmp)
  <img/tokenallocation.png>
 File: img/useofproceeds.png Graphic file (type bmp)
- <img/useofproceeds.png>
+ <img/useofproceeds.png> [14]
 File: img/thefutureofmanagement.jpg Graphic file (type bmp)
 
-<img/thefutureofmanagement.jpg> [13] [14] (./whitepaper_ja.aux) ) 
+<img/thefutureofmanagement.jpg> [15] (./whitepaper_ja.aux) ) 
 Here is how much of TeX's memory you used:
- 1659 strings out of 493653
- 20731 string characters out of 6148874
- 100596 words of memory out of 5000000
- 5256 multiletter control sequences out of 15000+600000
+ 1665 strings out of 493653
+ 20858 string characters out of 6148874
+ 92596 words of memory out of 5000000
+ 5260 multiletter control sequences out of 15000+600000
  14241 words of font info for 63 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,8n,21p,225b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,21p,255b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on whitepaper_ja.dvi (14 pages, 71396 bytes).
+Output written on whitepaper_ja.dvi (15 pages, 71124 bytes).
