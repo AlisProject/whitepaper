@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.28)  14 JUL 2017 00:37
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.28)  16 JUL 2017 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -141,36 +141,57 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 
 ] [2] [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 105.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
+(Font)              <5> on input line 105.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 42.
+(Font)              scaled to size 6.72699pt on input line 105.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 42.
+(Font)              scaled to size 4.805pt on input line 105.
 
-[4] [5] [6] [7]
+[4] [5]
+Overfull \hbox (34.833pt too wide) detected at line 164
+\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = [](\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 
+= 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 001\OML/cmm/m/it/10 ifB[] < \OT1/cmr/m/n/1
+0 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 001) \OMS/cmsy/m/n/10 ^^C \JY1/mc/m/n/10 
+α \OT1/cmr/m/n/10 (\JY1/mc/m/n/10 α \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 iflas
+tpost < \OT1/cmr/m/n/10 5\OML/cmm/m/it/10 minuteselse \JY1/mc/m/n/10 α \OT1/cm
+r/m/n/10 = 1)
+ []
+
+
+Overfull \hbox (7.7609pt too wide) detected at line 168
+\OML/cmm/m/it/10 B[] \OT1/cmr/m/n/10 = \JY1/mc/m/n/10 Σ \OT1/cmr/m/n/10 (\OML/
+cmm/m/it/10 B[] \OMS/cmsy/m/n/10 ^^C \JY1/mc/m/n/10 θ \OT1/cmr/m/n/10 (\JY1/mc
+/m/n/10 θ \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 ifuservoteuser[]sownariticle\OT1
+/cmr/m/n/10 )\OML/cmm/m/it/10 else \JY1/mc/m/n/10 δ \OT1/cmr/m/n/10 = 1) \OMS/
+cmsy/m/n/10 ^^C \JY1/mc/m/n/10 δ （δ \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 ifal
+lvotes < \OT1/cmr/m/n/10 10\OML/cmm/m/it/10 ; else \JY1/mc/m/n/10 δ \OT1/cmr/m
+/n/10 = 1)
+ []
+
+[6] [7] [8]
 File: img/financialtable.png Graphic file (type bmp)
  <img/financialtable.png>
-Overfull \hbox (5.22017pt too wide) in paragraph at lines 76--78
+Overfull \hbox (5.22017pt too wide) in paragraph at lines 259--266
 [] 
  []
 
-[8]
+[9]
 File: img/tokenallocation.png Graphic file (type bmp)
  <img/tokenallocation.png>
 File: img/useofproceeds.png Graphic file (type bmp)
- <img/useofproceeds.png> [9]
+ <img/useofproceeds.png>
 File: img/thefutureofmanagement.jpg Graphic file (type bmp)
 
 <img/thefutureofmanagement.jpg> [10] [11] (./whitepaper_ja.aux) ) 
 Here is how much of TeX's memory you used:
  1048 strings out of 493653
  13649 string characters out of 6148874
- 92447 words of memory out of 5000000
+ 91447 words of memory out of 5000000
  4664 multiletter control sequences out of 15000+600000
  13113 words of font info for 58 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 25i,6n,21p,4796b,224s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 25i,6n,21p,210b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on whitepaper_ja.dvi (11 pages, 59020 bytes).
+Output written on whitepaper_ja.dvi (11 pages, 59484 bytes).
