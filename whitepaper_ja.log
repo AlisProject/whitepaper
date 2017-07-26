@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.28)  17 JUL 2017 14:14
+This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2017.6.28)  26 JUL 2017 22:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -210,58 +210,64 @@ File: img/digitalad-marketsize.png Graphic file (type bmp)
 <img/digitalad-marketsize.png> [4] [5]
 File: img/systemthinking-with-AARRR.png Graphic file (type bmp)
  <img/systemthinking-with-AARRR.png>
-Overfull \hbox (44.36682pt too wide) in paragraph at lines 167--168
+Overfull \hbox (44.36682pt too wide) in paragraph at lines 168--169
  [] 
  []
 
 [6]
+File: img/ALIS-service-image.png Graphic file (type bmp)
+ <img/ALIS-service-image.png> [7]
+Overfull \vbox (19.18024pt too high) has occurred while \output is active []
+
+
+[8]
 File: img/systemthinking-with-AARRR.png Graphic file (type bmp)
  <img/systemthinking-with-AARRR.png>
-Overfull \hbox (44.36682pt too wide) in paragraph at lines 213--229
+Overfull \hbox (44.36682pt too wide) in paragraph at lines 230--246
 [] 
  []
 
-[7] [8]
+[9] [10]
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 247.
+(Font)              scaled to size 6.72699pt on input line 264.
 LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 247.
- [9] [10] [11] [12]
+(Font)              scaled to size 4.805pt on input line 264.
+ [11] [12] [13] [14]
 File: img/yasu.jpg Graphic file (type bmp)
  <img/yasu.jpg>
 File: img/mizusawa.jpg Graphic file (type bmp)
- <img/mizusawa.jpg> [13]
+ <img/mizusawa.jpg>
 File: img/ishii.jpg Graphic file (type bmp)
-
-<img/ishii.jpg>
+ <img/ishii.jpg>
+[15]
 File: img/erichin.jpg Graphic file (type bmp)
  <img/erichin.jpg>
 File: img/kamei.jpg Graphic file (type bmp)
- <img/kamei.jpg> [14]
+ <img/kamei.jpg>
 File: img/financialtable.png Graphic file (type bmp)
-
-<img/financialtable.png>
-Overfull \hbox (5.22017pt too wide) in paragraph at lines 488--492
+ <img/financialtable.png>
+Overfull \hbox (5.22017pt too wide) in paragraph at lines 505--509
 []
  []
 
+[16]
 File: img/base-info-of-finace.png Graphic file (type bmp)
-<img/base-info-of-finace.png> [15]
+ <img/base-info-of-finace.png> [17]
 File: img/tokenallocation.png Graphic file (type bmp)
  <img/tokenallocation.png>
 File: img/useofproceeds.png Graphic file (type bmp)
 
-<img/useofproceeds.png> [16]
+<img/useofproceeds.png>
 File: img/thefutureofmanagement.jpg Graphic file (type bmp)
- <img/thefutureofmanagement.jpg> [17] [18]
+ <img/thefutureofmanagement.jpg> [18] [19]
 (./whitepaper_ja.aux) ) 
 Here is how much of TeX's memory you used:
- 1699 strings out of 493653
- 21657 string characters out of 6148874
+ 1702 strings out of 493653
+ 21749 string characters out of 6148874
  90596 words of memory out of 5000000
- 5283 multiletter control sequences out of 15000+600000
+ 5285 multiletter control sequences out of 15000+600000
  14241 words of font info for 63 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 27i,8n,21p,231b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,8n,21p,225b,245s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on whitepaper_ja.dvi (18 pages, 73112 bytes).
+Output written on whitepaper_ja.dvi (19 pages, 75484 bytes).
